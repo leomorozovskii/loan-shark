@@ -1,9 +1,9 @@
 pragma solidity 0.5.14;
 
-import "@openzeppelin/contracts/access/roles/WhitelistedRole.sol";
-import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
-import "@openzeppelin/contracts/token/ERC721/IERC721Full.sol";
-import "@openzeppelin/contracts/token/ERC721/ERC721Full.sol";
+import "@openzeppelin-contracts/contracts/access/roles/WhitelistedRole.sol";
+import "@openzeppelin-contracts/contracts/token/ERC20/IERC20.sol";
+import "@openzeppelin-contracts/contracts/token/ERC721/IERC721Full.sol";
+import "@openzeppelin-contracts/contracts/token/ERC721/ERC721Full.sol";
 import "./sablier/IERC1620.sol";
 
 contract LoanShark is ERC721Full, WhitelistedRole {
